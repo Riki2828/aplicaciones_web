@@ -25,20 +25,31 @@ input {
 }
 /* fes que tot el que té class 'hello' sigui de fons blanc */
 .hello {
-    background-color: #FFFFFF 
+    background-color: #FFFFFF;
 }
 /* fes que l'element amb id 'special' tingui un border 2px solid blau (selecciona el teu propi rgb blau) */
-
+#special {
+    border: 2px solid blue;
+}
 /*Fes que tots els <p> que estiguin dins un div tingin una font de 25px (font-size: 25px) */
-
+p {
+    font-size: 25px;    
+}
 /*Fes que només els inputs de type text tenguin un fons gris */
-
+input[type="text"]{
+    background-color: #635f5e;
+}
 /* Fes que els <p> dins el 3r <div> tinguin fons rosa */
-
+dir:nth-of-type(3) p{
+    background-color: palevioletred;
+}
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc */
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px) */
-
+dir:nth-of-type(3) em{
+    color: white;
+    font-size: 20px;
+}
 /*****************************/
 /************BONUS************/
 /*****************************/
