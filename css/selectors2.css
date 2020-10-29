@@ -1,6 +1,6 @@
 /* dona al <body> element un color de fons de #bdc3c7 */
 body {
-    color: #bdc3c7;
+    background-color: #bdc3c7;
 }
 
 /* fes que els <h1> siguin de color #9b59b6 */
