@@ -1,0 +1,51 @@
+
+/*se que me vas a matar por usar tantas clases pero no se me ocurre otra cosa*/
+
+td {
+    border: 1px solid black;
+    padding: 90px;
+}
+h1 {
+    font-family: Syne Mono;
+    text-align:center;
+}
+
+.centro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1:hover {
+    color: rgb(143, 17, 192);
+}
+
+.noneborder {
+    border-style: none;
+}
+
+.centro1 {
+    border-top-style: none;
+}
+
+.lat2 {
+    border-left-style: none;
+}
+
+.lat2_0 {
+    border-right-style: none;
+}
+
+.centro2 {
+    border-bottom-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+td:hover {
+    background-color: red;
+}
+
+a {
+    text-align:center;
+}
