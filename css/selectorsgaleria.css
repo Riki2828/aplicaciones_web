@@ -1,0 +1,19 @@
+div.galeria {
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 180px;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: Turret Road;
+}
+
+body {
+    background-image: url("../img/galeria/back.png");
+}
