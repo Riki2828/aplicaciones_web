@@ -1,15 +1,12 @@
-div.galeria {
+img {
     margin: 5px;
     border: 1px solid white;
     float: left;
     width: 180px;
 }
 
-div.galeria img {
-    width: 100%;
-    height: auto;
-}
-
 h1 {
-    font-family: Turret Road;
+    font-family: 'Raleway Dots', cursive;
+    border-bottom: 5px solid grey;
+    width: 25%;
 }
