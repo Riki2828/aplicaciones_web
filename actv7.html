@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari de registre
+    </title>
+</head>
+<body>
+    
+    <h1>Exercic, formulari de registre</h1>
+
+    <form action="actv7.html" method="GET">
+
+        <label for="nom"> Nom: </label>
+        <input type="text" id="nom" name="nom" required placeholder="Introdueix el teu nom" size="20" maxlength="16">
+
+        <label for="llinatges"> Llinatges: </label>
+        <input type="text" id="llinatges" name="llinatges" required placeholder="Introdueix els teus llinatges" size="40" maxlength="50">
+        
+        <br>
+
+        <label>Sexe:</label>
+        <input type="radio" name="sexe" id="home" value="H">
+        <label for="home">Home</label>
+        <input type="radio" name="sexe" id="dona" value="D">
+        <label for="dona">Dona</label>
+        <input type="radio" name="sexe" id="altres" value="A">
+        <label for="altres">Altres</label>
+        <input type="radio" name="sexe" id="eva" value="EVA">
+        <label for="eva">EVA</label>
+        <br>
+
+        <label for="emil"> Email: </label>
+        <input type="text" id="email" name="email" required placeholder="Introdueix el teu email" size="20" maxlength="50">
+
+        <label for="password"> Password </label>
+        <input type="password" id="password" name="password" required placeholder="Introdueix el teu password" size="10" maxlength="8">
+
+        <br>
+        
+        <label for="dataNaix"> Data Naixament: </label>
+        <input type="date" id="dataNaix" name="dataNaix" required placeholder="DD/MM/YYYY">
+
+        <br>
+    
+        <label for="">Eatic d'acord amb els termes i condicions</label>
+        <input type="checkbox" name="acord" id="acord" required value="S">
+        
+        <input type="submit">
+
+    </form>
+
+</body>
+</html>
