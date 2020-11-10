@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.file-container div{
+.flex-container div{
     background-color: gainsboro;
     width: 100px;
     margin: 10px;
