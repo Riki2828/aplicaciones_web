@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex1 div{
+    background-color: burlywood;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
