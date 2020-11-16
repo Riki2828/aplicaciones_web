@@ -29,6 +29,6 @@ i {
     margin: 10px ;
 }
 
-.index {
-    margin-top: 510px;
+i:hover {
+    background-color: gray;
 }

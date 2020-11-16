@@ -1,7 +1,8 @@
 body {
     background-image: url(../img/html-color-codes-color-tutorials-hero.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
+    
 }
 
 h1 {

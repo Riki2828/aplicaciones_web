@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.div1 {
+    background-image: url(../img/bianca_coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 30vh;
+    font-size: 175%;
+    margin-left: 65vh;
+
+}
+
+.boton{
+    margin-top: 5vh;
+    border: chocolate solid 5px;
+    margin-left: 25vh;
+    padding: 2vh;
+    margin-right: 25vh;
+    border-radius: 10px;
+    color: chocolate;
+}
+
+.boton:hover {
+    background-color: rgb(114, 64, 28);
+}
+
+.div1 h1 {
+    color: black;
+    text-align: center;
+}
+
+.div1 h3 {
+    margin-top: 5vh;
+    color: black;
+    text-align: center;
+}
+
+.containerora {
+    background-color: chocolate;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.containerbla {
+    background-color: white;
+    color: chocolate;
+    text-align: center;
+    padding: 20px;
+}
+
+.containerflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
